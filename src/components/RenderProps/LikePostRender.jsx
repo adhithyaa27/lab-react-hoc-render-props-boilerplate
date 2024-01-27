@@ -4,7 +4,7 @@ const LikePost = (props) => {
 
     return (
         <>
-            <button onClick={props.increaseCount}>Like Post {props.count}</button>
+            <button onClick={props.increaseCount}>❤️ Post {props.count}</button>
         </>
     );
 

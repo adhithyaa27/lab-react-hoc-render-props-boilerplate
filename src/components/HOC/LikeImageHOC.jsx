@@ -4,7 +4,11 @@ const LikeImage = (props) => {
     const { increaseCount, count } = props;
     return (
         <>
-            <button onClick={increaseCount}>Like Image {count}</button>
+            <button onClick={increaseCount}>
+
+                ❤️ Image {count}
+                
+            </button>
         </>
     );
 };
